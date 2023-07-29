@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="logo">
+        <a href="index.html"><img src="images/logo.svg" alt="logo"></a>
+      </div>
+      <nav class="header-navigation none">
+        <ul>
+          <li class="menu-item"><a href="">About</a></li>
+          <li class="menu-item"><a href="">Services</a></li>
+          <li class="menu-item"><a href="">Projects</a></li>
+          <li class="menu-item contact font-fraunces"><a href="">CONTACT</a></li>
+        </ul>
+      </nav>
+      <div id="hamburger-button">
+        <img class="menu-icon" src="images/icon-hamburger.svg" alt="hamburger image">
+        <img class="close-icon" src="images/icon-close.svg" alt="hamburger image">
+      </div>
+    </header>
+    <main>
+      <section id="top" class="section-top">
+        <h1 class="font-fraunces">WE ARE CREATIVES</h1>
+        <div>
+          <img src="images/icon-arrow-down.svg" alt="down arrow">
+        </div>
+      </section>
+      <section class="section-promotion">
+        <div class="section-promotion__item transform">
+          <div class="section-promotion__item__image"></div>
+          <div class="section-promotion__item__description">
+            <h2 class="font-fraunces">Transform your brand</h2>
+            <p>We are a full-service creative agency specializing in helping brands grow fast.
+              Engage your clients through compelling visuals that do most of the marketing for you.</p>
+            <div class="section-promotion__item__link font-fraunces transform">Learn more</div>
+          </div>
+        </div>
+        <div class="section-promotion__item standout">
+          <div class="section-promotion__item__image"></div>
+          <div class="section-promotion__item__description">
+            <h2 class="font-fraunces">Stand out to the right audience</h2>
+            <p> Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters,
+              we’ll build
+              and extend your brand in digital places.
+            </p>
+            <div class="section-promotion__item__link font-fraunces standout">Learn more</div>
+          </div>
+        </div>
+      </section>
+      <section class="section-service">
+        <div class="section-service__item design">
+          <div class="section-service__description-wrapper">
+            <h2 class="font-fraunces">Graphic design</h2>
+            <P>Great design makes you memorable. We deliver artwork that underscores your brand message and captures
+              potential
+              clients’ attention.
+            </P>
+          </div>
+        </div>
+        <div class="section-service__item photography">
+          <div class="section-service__description-wrapper">
+            <h2 class="font-fraunces">Photography</h2>
+            <P>Increase your credibility by getting the most stunning, high-quality photos that improve your business
+              image.
+            </P>
+          </div>
+        </div>
+      </section>
+      <section class="section-testimonial">
+        <h2 class="font-fraunces">Client testimonials</h2>
+        <ul class="section-testimonial__user">
+          <li>
+            <img src="images/image-emily.jpg" alt="Emily">
+            <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were
+              always
+              hit.</p>
+            <div class="section-testimonial__user__name font-fraunces">Emily R.</div>
+            <span class="section-testimonial__user__occupation">Marketing Director</span>
+          </li>
+          <li>
+            <img src="images/image-thomas.jpg" alt="Thomas">
+            <p>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and
+              enjoyable experience.</p>
+            <div class="section-testimonial__user__name font-fraunces">Thomas S.</div>
+            <span class="section-testimonial__user__occupation">Chief Operating Officer</span>
+          </li>
+          <li>
+            <img src="images/image-jennie.jpg" alt="Jennie">
+            <p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+            </p>
+            <div class="section-testimonial__user__name font-fraunces">Jennie F.</div>
+            <span class="section-testimonial__user__occupation">Business Owner</span>
+          </li>
+        </ul>
+      </section>
+      <div class="image-gallery">
+        <img class="item__image-desktop" src="images/desktop/image-gallery-milkbottles.jpg" alt="milkbottles">
+        <img class="item__image-desktop" src="images/desktop/image-gallery-orange.jpg" alt="orange">
+        <img class="item__image-desktop" src="images/desktop/image-gallery-cone.jpg" alt="cone">
+        <img class="item__image-desktop" src="images/desktop/image-gallery-sugarcubes.jpg" alt="sugarcubes">
+
+        <img class="item__image-mobile" src="images/mobile/image-gallery-milkbottles.jpg" alt="milkbottles">
+        <img class="item__image-mobile" src="images/mobile/image-gallery-orange.jpg" alt="orange">
+        <img class="item__image-mobile" src="images/mobile/image-gallery-cone.jpg" alt="cone">
+        <img class="item__image-mobile" src="images/mobile/image-gallery-sugar-cubes.jpg" alt="sugarcubes">
+
+      </div>
+    </main>
+    <footer class="footer">
+      <img class="footer__logo-image" src="images/footer-logo.svg" alt="footer-logo">
+      <nav>
+        <ul>
+          <li><a href="">About</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Projects</a></li>
+        </ul>
+      </nav>
+      <div class="social-media-links">
+        <img src="images/icon-facebook.svg" alt="facebook icon">
+        <img src="images/icon-instagram.svg" alt="instagram icon">
+        <img src="images/icon-twitter.svg" alt="twitter icon">
+        <img src="images/icon-pinterest.svg" alt="pinterest icon">
+      </div>
+      <!-- <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Your Name Here</a>.
+      </div> -->
+    </footer>
+  </div>
+</body>
+<script>
+  // hamberger toggle start
+  const menu = document.querySelector(".header-navigation");
+  const menuItems = document.querySelectorAll(".menu-item");
+  const closeIcon = document.querySelector(".close-icon");
+  const menuIcon = document.querySelector(".menu-icon");
+  const hamburger = document.querySelector("#hamburger-button");
+
+  var windowWidth = document.body.clientWidth;
+
+  const toggleMenu = () => {
+    if (getComputedStyle(hamburger).display === 'block') {
+      if (menu.classList.contains('none')) {
+        menu.classList.remove('none');
+        closeIcon.style.display = "block";
+        menuIcon.style.display = "none";
+      } else {
+        menu.classList.add('none');
+        closeIcon.style.display = "none";
+        menuIcon.style.display = "block";
+      }
+    }
+  }
+  menuItems.forEach(
+    function (menuItem) {
+      if (getComputedStyle(hamburger).display === 'block') {
+        menuItem.addEventListener("click", toggleMenu)
+      }
+    }
+  )
+  hamburger.addEventListener("click", toggleMenu);
+  window.addEventListener("resize", (event) => {
+    var currentWitdh = document.body.clientWidth;
+    if (currentWitdh === 780) {
+      toggleMenu();
+    }
+  })
+
+</script>
+
+</html>
