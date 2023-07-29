@@ -397,6 +397,11 @@ body {
     .section-service__item {
         width: 50%;
     }
+
+    .section-service__item h2 {
+        font-size: 3.2rem;
+        margin-bottom: 32px;
+    }
 }
 
 /* ---------- // TESTIMONIAL // ---------- */
@@ -448,8 +453,7 @@ body {
     .section-testimonial h2 {
         margin: 160px 0 70px;
         color: var(--Grayishblue);
-        font-size: 1.8rem;
-
+        font-size: 2.0rem;
     }
 
     .section-testimonial__user {
