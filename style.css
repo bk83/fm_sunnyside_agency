@@ -38,10 +38,6 @@ body {
     text-align: center;
 }
 
-/* font */
-/* font-family: 'Barlow', sans-serif;
-font-family: 'Fraunces', serif; */
-
 .font-fraunces {
     font-family: 'Fraunces', serif;
 }
@@ -181,10 +177,9 @@ font-family: 'Fraunces', serif; */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
-    /* width: 100%; */
     min-height: 536px;
-    /* height: auto; */
     height: 35.8333vw;
+
 }
 
 .section-top h1 {
@@ -199,7 +194,20 @@ font-family: 'Fraunces', serif; */
 @media (min-width: 500px) {
     .section-top {
         background-image: url(images/desktop/image-header.jpg);
+        height: 800px;
     }
+
+    .section-top h1 {
+        padding-top: 200px;
+        margin-bottom: 105px;
+        font-size: 4.3rem;
+        font-weight: 900;
+        line-height: 1.5;
+        letter-spacing: 0.9rem;
+    }
+
+    .section-top h1 {}
+
 }
 
 /* ---------- // PROMOTION // ---------- */
@@ -242,8 +250,6 @@ font-family: 'Fraunces', serif; */
 }
 
 .section-promotion__item h2 {
-    /* padding: 0 32px;
-    margin-top: 65px; */
     font-size: 3.2rem;
     line-height: 1.5;
     font-weight: 900;
@@ -275,8 +281,6 @@ font-family: 'Fraunces', serif; */
     height: 10px;
     width: 110%;
     border-radius: 5px;
-    /* background-color: rgba(250, 212, 0, 0.4);
-    background-color: rgba(254, 120, 103, 0.4); */
 }
 
 .section-promotion__item__link.transform::before {
@@ -526,6 +530,7 @@ font-family: 'Fraunces', serif; */
 .social-media-links img {
     filter: invert(34%) sepia(81%) saturate(290%) hue-rotate(118deg) brightness(95%) contrast(93%);
 }
-.social-media-links img:hover{
+
+.social-media-links img:hover {
     filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(49deg) brightness(96%) contrast(92%);
 }
