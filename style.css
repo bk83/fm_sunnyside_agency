@@ -49,6 +49,7 @@ body {
 .container {
     background-color: #FFFBF8;
     width: 100%;
+    height: 100%;
     max-width: 1440px;
     position: relative;
     margin: 0 auto;
@@ -200,14 +201,11 @@ body {
     .section-top h1 {
         padding-top: 200px;
         margin-bottom: 105px;
-        font-size: 4.3rem;
+        font-size: 4.8rem;
         font-weight: 900;
         line-height: 1.5;
         letter-spacing: 0.9rem;
     }
-
-    .section-top h1 {}
-
 }
 
 /* ---------- // PROMOTION // ---------- */
@@ -447,6 +445,13 @@ body {
 }
 
 @media (min-width: 820px) {
+    .section-testimonial h2 {
+        margin: 160px 0 70px;
+        color: var(--Grayishblue);
+        font-size: 1.8rem;
+
+    }
+
     .section-testimonial__user {
         flex-direction: row;
         justify-content: space-around;
@@ -454,6 +459,7 @@ body {
 
     .section-testimonial__user li {
         padding: 25px;
+        margin-bottom: 135px;
     }
 
     .section-testimonial__user p {
